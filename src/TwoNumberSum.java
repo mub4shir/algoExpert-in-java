@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -12,6 +11,7 @@ public class TwoNumberSum {
         System.out.println(Arrays.toString(getPair(arr, targetSum)));
         System.out.println(Arrays.toString(getPairTwoPointers(arr, targetSum)));
     }
+
     // O(n) time | O(n) space
     private static int[] getPair(int[] arr, int targetSum) {
         HashMap<Integer, Boolean> nums = new HashMap<>();
@@ -23,6 +23,7 @@ public class TwoNumberSum {
         }
         return new int[0];
     }
+
     // O(n^2) time | O(1) space
     private static int[] getPairBruteForce(int[] arr, int targetSum) {
         for (int i = 0; i < arr.length - 1; i++) {
@@ -42,12 +43,15 @@ public class TwoNumberSum {
         Arrays.sort(arr);
         int left = 0;
         int right = arr.length - 1;
-        while (left<right){
-            int currentSum=arr[left]+arr[right];
-            if(currentSum==targerSum)return new int[]{arr[left],arr[right]};
-            else if(currentSum<targerSum)left++;
-            else if(currentSum>targerSum)right--;
+        while (left < right) {
+            int currentSum = arr[left] + arr[right];
+            if (currentSum == targerSum) return new int[]{arr[left], arr[right]};
+            else if (currentSum < targerSum) left++;
+            else if (currentSum > targerSum) right--;
         }
         return new int[0];
     }
 }
+
+
+

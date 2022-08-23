@@ -10,8 +10,9 @@ public class TournamentWinner {
         competitions.add(Arrays.asList("C#", "Python"));
         competitions.add(Arrays.asList("Python", "HTML"));
         List<Integer> results = new ArrayList<>(Arrays.asList(0, 0, 1));
-        System.out.println(tournamentWinner(competitions,results ));
+        System.out.println(tournamentWinner(competitions, results));
     }
+
     // O(n) time | O(k) space, where n is number of competitions and k is the number of teams competing in these competitions
     public static String tournamentWinner(List<List<String>> competitions, List<Integer> results) {
         HashMap<String, Integer> points = new HashMap<>();
@@ -25,3 +26,4 @@ public class TournamentWinner {
         return winner;
     }
 }
+

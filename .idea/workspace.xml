@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56992716-dbf0-4948-8103-908312fca087" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SortedSquaredArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TournamentWinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NonConstructibleChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoNumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoNumberSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidateSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidateSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TournamentWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TournamentWinner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TournamentWinner">
+  <component name="RunManager" selected="Application.NonConstructibleChange">
+    <configuration name="NonConstructibleChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NonConstructibleChange" />
+      <module name="algoExpert-in-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortedSquaredArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortedSquaredArray" />
       <module name="algoExpert-in-java" />
@@ -84,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonConstructibleChange" />
         <item itemvalue="Application.TournamentWinner" />
         <item itemvalue="Application.SortedSquaredArray" />
         <item itemvalue="Application.ValidateSubsequence" />
@@ -104,7 +110,7 @@
       <workItem from="1660927072594" duration="77000" />
       <workItem from="1660928622023" duration="315000" />
       <workItem from="1660977437268" duration="1289000" />
-      <workItem from="1660987052635" duration="5552000" />
+      <workItem from="1660987052635" duration="10018000" />
     </task>
     <servers />
   </component>
